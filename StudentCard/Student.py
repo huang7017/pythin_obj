@@ -18,4 +18,4 @@ class Student:
     def getScore(self):
         return self.__score
     def toString(self):
-        return str(self.__name)+ ' '+str(self.__date.toString())+ ' ' + str(self.__score)
+        print(str(self.__name)+ ' '+str(self.__date.toString())+ ' ' + str(self.__score))
